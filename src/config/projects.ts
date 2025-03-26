@@ -20,16 +20,16 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
+    name: 'Dean’s Honor List Spring 2024',
+    description: 'Awarded for academic excellence',
     date: '2024',
-    location: 'SCLS, Shanghai',
+    location: 'Ottawa, Canada',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    name: 'Dean’s Honor List Fall 2024',
+    description: 'Awarded for academic excellence',
+    date: '2024',
+    location: 'Ottawa, Canada',
   },
 ]
 
@@ -39,30 +39,57 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'Book Cataloging System',
+    description:
+      'A web application for user registration, login, and personal book library management using PHP, JavaScript, and MySQL.',
+    link: {
+      href: 'https://github.com/DanielDeng411/Book-Catalogue-System.git',
+      label: 'View on GitHub',
+    },
+    tags: ['Web App', 'PHP', 'JavaScript', 'HTML/CSS', 'MySQL', 'XAMPP'],
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Recipe Management System',
+    description:
+      'Java-based desktop app for managing bakery recipes with file I/O and auto-generated shopping lists.',
+    link: {
+      href: '#',
+      label: 'Project Details',
+    },
+    tags: ['Java', 'OOP', 'Desktop App', 'File I/O'],
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
+    name: 'Authors CRUD Web App (Assignment 2)',
+    description:
+      'A Java Servlet-based multi-tier web application that manages authors using JDBC, DAO, and Singleton design patterns.',
+    link: {
+      href: 'https://github.com/DanielDeng411/DBMS-Using-Servlet',
+      label: 'View on GitHub',
+    },
+    tags: ['Java', 'Servlets', 'JDBC', 'DAO', 'Design Patterns'],
   },
   {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Public Transit Fleet Management System (PTFMS)',
+    description:
+      'A full-stack group project to manage public transit fleet data, including vehicle tracking, maintenance, and assignments.',
+    link: {
+      href: 'https://github.com/Nanastrike/java-project-cst8288.git',
+      label: 'View on GitHub',
+    },
+    tags: ['Team Project', 'Java', 'JSP', 'JDBC', 'MySQL', 'Fleet Management'],
+  },
+  {
+    name: 'Mobile Profile App with Flutter',
+    description:
+      'A mobile profile page built with Flutter that uses encrypted shared preferences to store login credentials and supports phone, SMS, and email actions.',
+    link: {
+      href: 'https://github.com/DanielDeng411/CST2335-Group-Project.git',
+      label: 'View on GitHub',
+    },
+    tags: ['Flutter', 'Mobile App', 'Encrypted Storage', 'Shared Preferences', 'Dart'],
   },
 ]
+
 
 // Hobbies & Volunteer
 export const activitiesHeadLine = "Hobbies & Volunteer"
@@ -70,26 +97,34 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'Flutter Mobile Development Showcase',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      'Demonstrated a mobile profile app built in Flutter with encrypted preferences and built-in phone, SMS, and email functionality.',
+    date: '2025-04-08',
+    location: 'Algonquin College',
+    link: 'https://github.com/DanielDeng411/CST2335-Group-Project.git',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'Test Assistant Internship',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+      'Tested auditing software workflows, resolved SQL database issues, and improved software testing efficiency by 20%.',
+    date: '2023-10-01',
+    location: 'Changsha, China',
   },
   {
-    name: 'Code Review Session',
+    name: 'Auditing Assistant Internship',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'Assisted in preparing audit papers and verifying financial data, gaining collaborative and analytical experience in a real-world audit environment.',
+    date: '2023-03-01',
+    location: 'Changsha, China',
+  },
+  {
+    name: 'LeetCode Challenge Practice',
+    description:
+      'Solving daily coding challenges on LeetCode to improve problem-solving skills in data structures and algorithms using Java and Python.',
+    date: 'Ongoing',
+    location: 'Online',
+    link: 'https://leetcode.com/u/ZhennanDeng/',
   },
 ]
+

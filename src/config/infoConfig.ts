@@ -2,26 +2,25 @@ export * from './projects'
 export * from './education'
 export * from './career'
 
-// personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Zhennan Deng'
+export const headline = 'Computer Programming Student at Algonquin College'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi there! I'm Zhennan(Daniel) Deng, a Computer Programming student at Algonquin College with a strong academic background and hands-on experience in software development. Passionate about building practical applications and solving real-world problems."
+export const email = 'danieldeng0411@outlook.com'
+export const githubUsername = 'DanielDeng411' // You can replace this with your actual GitHub username if you have one
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Hi there! I'm Zhennan(Daniel) Deng, currently pursuing a Computer Programming diploma at Algonquin College, Ottawa. I hold a Bachelor’s degree in Auditing from Nanjing Auditing University and have interned in both software engineering and web developing.",
+  'I love developing systems that solve real problems—like a Book Cataloging System and a Recipe Manager I built using Java, PHP, and SQL. I’m particularly interested in backend development, database management, and building secure, efficient software.',
+  "This site is where I share my learning journey, technical projects, and thoughts on programming and technology. Let's connect and build something awesome together!",
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
+export const blogHeadLine = "What I've been thinking about."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "I write about programming, real-world projects, and the journey of becoming a software developer."
 
 // social links
 export type SocialLinkType = {
@@ -33,14 +32,9 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
-  },
-  {
-    name: 'Bilibili',
-    icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
+    name: 'LinkedIn',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/zhennan-deng-b8a03a31a/',
   },
 ]
 
