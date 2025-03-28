@@ -1,0 +1,99 @@
+---
+title: "Building a Clean and Functional Dashboard for PTFMS Using JSP and CSS"
+description: "How I built a fully responsive and dynamic dashboard page for the Public Transit Fleet Management System (PTFMS), showcasing key system components."
+date: "2025-03-27"
+---
+
+import Image from 'next/image'
+
+JSP + CSS + Flexbox. Created a dynamic, user-friendly interface that provides an overview of core system components. Learned a lot about backend integration and session management. Now the dashboard is more intuitive and ready for future enhancements.
+
+## Why I Built It
+
+As part of the **Public Transit Fleet Management System (PTFMS)** project for my CST8288 final, I needed a clean and interactive way to display key system data. The dashboard serves as the main entry point for system administrators and provides quick access to reports, vehicle management, GPS tracking, and more. This task allowed me to strengthen my skills in JSP, CSS, and Flexbox while ensuring that the interface was both responsive and functional.
+
+## The Stack
+
+I used a simple yet effective tech stack that focused on flexibility, performance, and maintainability:
+
+- **JSP** – for server-side rendering and dynamic content generation
+- **CSS** – for responsive, visually appealing design
+- **Flexbox** – to maintain clean and aligned layouts
+- **Servlets** – to handle backend processes like login and session management
+- **Java** – for implementing key functionality such as logging out and redirecting
+
+## What I Learned
+
+- How to create a well-structured JSP page with dynamic content
+- How to apply Flexbox for precise layout control, especially for navbars and buttons
+- How to enhance user interaction through hover effects and subtle UI improvements
+- How to implement a `LogoutServlet` to manage user sessions effectively
+- How to maintain consistency in button alignment and element positioning
+
+## Key Features Implemented
+
+### Dynamic and Responsive Layout
+
+Organized the dashboard into three key rows:
+
+- **Row 1:** Whole Overview + Reports Overview
+- **Row 2:** Vehicle Management + GPS Tracking
+- **Row 3:** Maintenance Overview + Fuel/Energy Overview
+
+Cards were styled with hover effects and **View Details** links aligned with the card headers.
+
+### Search Bar and Navbar Integration
+
+- Added a **search bar** for quick navigation.
+- Created a **navbar** that links to:
+    - Vehicle Management
+    - GPS Tracking
+    - Fuel/Energy Monitor
+    - Maintenance Alerts
+    - Reports Overview
+- Positioned a **Welcome, [User]!** message and a **Log Out** button on the right side of the navbar.
+
+### View Details Links
+
+- Replaced buttons with cleaner hyperlink-style links that align with card titles.
+- Enhanced hover effects that underline and darken the link when hovered.
+
+### Log Out and Session Management
+
+- Developed a `LogoutServlet` to:
+    - Invalidate the user session
+    - Redirect users to `LoginPage.jsp` after logging out
+- Ensured proper button alignment using Flexbox.
+
+### UI Enhancements with Flexbox
+
+- Used **Flexbox** to maintain proper alignment of the navbar and other page elements.
+- Created a smooth and intuitive interface with consistent spacing.
+
+## Here's what the dashboard looks like
+
+### Wireframe Design
+<iframe
+  src="/images/blogpicture/OOP Java Dashboard Wireframe.pdf"
+  width="100%"
+  height="600px"
+  title="OOP Java Dashboard Wireframe"
+/>
+
+### Final Dashboard Look
+<Image
+  src="/images/blogpicture/ptfms_dashboard.jpg"
+  alt="PTFMS Dashboard Screenshot"
+  width={800}
+  height={450}
+/>
+
+## What’s Next
+
+With the dashboard core functionality in place, I’m excited to:
+
+- Integrate real-time backend data to populate the dashboard dynamically
+- Add **role-based access control** to restrict views based on user roles
+- Implement **live GPS tracking** and real-time alerts for system monitoring
+
+Stay tuned for more updates as I continue to enhance the **PTFMS Dashboard**!
